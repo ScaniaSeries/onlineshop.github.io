@@ -2,10 +2,13 @@
 <html lang="id">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=390, initial-scale=1">
   <title>Promo Keluaran Terbaru - RA TRUCK AND BUS</title>
+
+  <!-- Bootstrap & Font -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
   <style>
     body {
       font-family: 'Poppins', sans-serif;
@@ -13,7 +16,11 @@
       background-image: url('https://i.ibb.co/2vZCsYZ/gear-pattern-gray.png');
       background-repeat: no-repeat;
       background-position: bottom center;
-      background-size: 100%;
+      background-size: cover;
+      max-width: 390px; /* batas layar 9:16 */
+      margin: 0 auto;
+      border: 1px solid #999;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
     .btn-buy {
       background-color: #212529;
@@ -22,20 +29,22 @@
       border-radius: 9999px;
       padding: 3px 12px;
     }
-    .btn-buy:hover {
-      background-color: #000;
-    }
+    .btn-buy:hover { background-color: #000; }
     .small-text { font-size: 12px; }
     .tiny-text { font-size: 10px; }
+    .card img {
+      object-fit: cover;
+      height: 150px;
+    }
   </style>
 </head>
-  
-<body class="container d-flex flex-column align-items-center min-vh-100">
+
+<body class="d-flex flex-column align-items-center min-vh-100">
 
   <!-- HEADER -->
   <header class="w-100 bg-light border-bottom border-dark d-flex justify-content-between align-items-center px-3 py-2">
     <div class="d-flex align-items-center gap-1">
-      <img src="./RA.jpg" alt="logo" width="25" height="25">
+      <img src="c:\Users\MyBook Hype AMD\Documents\Tugas desain html\RA.jpg" alt="logo" width="25" height="25">
       <span class="fw-bold" style="font-size: 13px;">RA TRUCK AND BUS</span>
     </div>
     <div class="d-flex align-items-center bg-white border border-dark rounded px-2 py-1">
@@ -56,7 +65,7 @@
   <main class="container mt-2 px-3" style="max-width: 400px;">
 
     <!-- PRODUK 1 -->
-    <div class="card mb-1 border-dark">
+    <div class="card mb-3 border-dark">
       <img src="./download (1).jpeg" class="card-img-top" alt="HINO RM 280">
       <div class="card-body p-2">
         <p class="fw-semibold mb-1" style="font-size:13px;">Chasis HINO RM 280 ABS</p>
@@ -68,7 +77,7 @@
     </div>
 
     <!-- PRODUK 2 -->
-    <div class="card mb-1 border-dark">
+    <div class="card mb-3 border-dark">
       <img src="./mbbo-teaser-id-oh-1626-l-01.jpg" class="card-img-top" alt="MERCEDES BENZ OH 1626">
       <div class="card-body p-2">
         <p class="fw-semibold mb-1" style="font-size:13px;">Chasis MERCEDES BENZ OH 1626 L M/T</p>
@@ -83,7 +92,7 @@
     <div class="row row-cols-2 g-2 mb-4">
       <div class="col">
         <div class="card h-100 border-dark">
-          <img src="c:\Users\MyBook Hype AMD\Documents\Tugas desain html\download (2).jpeg" class="card-img-top" alt="Mercedes 917">
+          <img src="./download (2).jpeg" class="card-img-top" alt="Mercedes 917">
           <div class="card-body p-2">
             <p class="fw-semibold tiny-text mb-1">Chasis MERCEDES BENZ OF 917 5300 M/T</p>
             <p class="fw-semibold small-text mb-1">Harga Rp577.000.000</p>
@@ -94,7 +103,7 @@
 
       <div class="col">
         <div class="card h-100 border-dark">
-          <img src="c:\Users\MyBook Hype AMD\Documents\Tugas desain html\mbbo-teaser-id-o-500-rsd-2445-01.jpg" class="card-img-top" alt="Mercedes 500RSD">
+          <img src="./mbbo-teaser-id-o-500-rsd-2445-01.jpg" class="card-img-top" alt="Mercedes 500RSD">
           <div class="card-body p-2">
             <p class="fw-semibold tiny-text mb-1">Chasis MERCEDES BENZ O 500RSD A445 AT DD</p>
             <p class="fw-semibold small-text mb-1">Harga Rp2.333.000.000</p>
@@ -105,7 +114,7 @@
 
       <div class="col">
         <div class="card h-100 border-dark">
-          <img src="c:\Users\MyBook Hype AMD\Documents\Tugas desain html\mercedes-benz-axor-front-angle-low-view-313869.avif" class="card-img-top" alt="AXOR 2528 C">
+          <img src="./mercedes-benz-axor-front-angle-low-view-313869.avif" class="card-img-top" alt="AXOR 2528 C">
           <div class="card-body p-2">
             <p class="fw-semibold tiny-text mb-1">TRUCK MERCEDES BENZ AXOR 2528 C</p>
             <p class="fw-semibold small-text mb-1">Harga Rp1.346.000.000</p>
@@ -116,7 +125,7 @@
 
       <div class="col">
         <div class="card h-100 border-dark">
-          <img src="c:\Users\MyBook Hype AMD\Documents\Tugas desain html\Tampilan-sasis-bus-Hino-RK-280-di-Indonesia-Gambar-Diambil-Dari-Hiba-Utama.webp" class="card-img-top" alt="HINO RK 280">
+          <img src="./Tampilan-sasis-bus-Hino-RK-280-di-Indonesia-Gambar-Diambil-Dari-Hiba-Utama.webp" class="card-img-top" alt="HINO RK 280">
           <div class="card-body p-2">
             <p class="fw-semibold tiny-text mb-1">Chasis HINO RK 280 ABS</p>
             <p class="fw-semibold small-text mb-1">Harga Rp1.047.140.000</p>
@@ -135,9 +144,3 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
-
-
-
-
